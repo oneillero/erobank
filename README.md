@@ -1,6 +1,6 @@
 # EROBank
 
-ERO Bank is a web application that provides banking services and financial management tools to its users. It allows users to perform various banking operations, such as account balance check, fund deposits, withdrawals, and transaction history review. The application is built using React for the frontend, with a focus on creating a user-friendly and intuitive interface. Strapi was utilized for the backend. This app is deployed to the cloud using AWS S3 bucket.
+Project Title: ERO Bank. Description: This is a web application that provides banking services and financial management tools to its users. It allows users to perform various banking operations, such as account balance check, fund deposits, withdrawals, and transaction history review. The application is built using React for the frontend, with a focus on creating a user-friendly and intuitive interface. Strapi was utilized for the backend. This app is deployed to the cloud using AWS S3 bucket. It was built for my MIT full-stack (MERN) project.
 
 ## Features
 
@@ -17,11 +17,14 @@ Responsive Design: The application is designed to be responsive and accessible a
 
 To run the ERO Bank application locally, follow these steps:
 
-Clone the repository
-Navigate to the project directory: cd ero-bank
-Install dependencies: npm install
-Start the development server: npm start
-Open your web browser and visit your local host to access the application.
+Clone the repository using Git: git clone [erobank]
+Navigate to the project directory: cd [erobank]
+Initialize the project and create a package.json file: npm init
+Install both backend and frontend dependencies: npm install (in the root directory and frontend directory)
+Start the backend server: npm run server (or any other script defined for starting the server)
+In a new terminal window, navigate to the frontend directory: cd [frontend]
+Start the frontend development server: npm start
+Open your web browser and visit your localhost to access the application.
 
 ## Dependencies
 
@@ -33,6 +36,10 @@ Material-UI: Component library for styling the user interface
 React Context API: For managing global state and user authentication
 Chart.js: Library for creating interactive charts and data visualizations
 react-toastify: Library for displaying toast notifications
+Express: Fast and minimalist web framework for Node.js
+Mongoose: Object Data Modeling (ODM) library for MongoDB and Node.js
+cors: Middleware for handling Cross-Origin Resource Sharing (CORS)
+Firebase authentication
 For the full list of dependencies, please refer to the package.json file.
 
 ## Contributions
@@ -44,3 +51,10 @@ When contributing, please ensure that you follow the established coding style an
 ### License
 
 ERO Bank is released under the MIT License. See the LICENSE file for more details.
+
+![Screenshot 2023-07-08 at 12 18 59 PM](https://github.com/oneillero/erobank/assets/127042753/bcbc1fbc-d99c-4afc-99e1-d45d23dd08c1)
+
+![Screenshot 2023-07-08 at 12 19 11 PM](https://github.com/oneillero/erobank/assets/127042753/08a08d95-9fcd-4e25-8d74-976b0835f2d6)
+
+
+
